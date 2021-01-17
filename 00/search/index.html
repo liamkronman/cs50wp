@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+          .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 15px;
+          }
+          .bar {
+            text-align: center;
+            background: #fff;
+            display: flex;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+            border-radius: 24px;
+            z-index: 3;
+            height: 44px;
+            margin: 0 auto;
+            width: 482px;
+            width: auto;
+          }
+          .text {
+            background-color: transparent;
+            border: none;
+            margin: 0;
+            padding: 0;
+            color: rgba(0,0,0,.87);
+            word-wrap: break-word;
+            outline: none;
+            display: flex;
+            flex: 100%;
+            -webkit-tap-highlight-color: transparent;
+            margin-left: 20px;
+            margin-top: 5px;
+            height: 34px;
+            font-size: 16px;
+          }
+          .submit{
+            text-align: center;
+            left: 42.5%;
+            top: 30%;
+          }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <form action="https://google.com/search">
+            <div class="bar">
+              <input class="text" type="text" name="q">
+            </div>
+            <br>
+            <div class="submit">
+              <input type="submit" value="Google Search">
+            </div>
+        </form>
+        <div class="topright">
+          <a href="advanced.html">Advanced</a>
+          <a href="image.html">Images</a>
+        </div>
+    </body>
+</html>

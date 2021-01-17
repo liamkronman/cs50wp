@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+          .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 15px;
+          }
+          .bar {
+            text-align: center;
+            background: #fff;
+            display: flex;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+            border-radius: 24px;
+            z-index: 3;
+            height: 44px;
+            margin: 0 auto;
+            width: 482px;
+            width: auto;
+          }
+          input {
+            border-radius: 1px;
+            border-top-left-radius: 1px;
+            border-top-right-radius: 1px;
+            border-bottom-right-radius: 1px;
+            border-bottom-left-radius: 1px;
+            border: 1px solid #d9d9d9;
+            border-top-color: rgb(192, 192, 192);
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-right-color: rgb(217, 217, 217);
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-bottom-color: rgb(217, 217, 217);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-left-color: rgb(217, 217, 217);
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-top: 1px solid #c0c0c0;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: rgb(192, 192, 192);
+            font-size: 13px;
+            height: 25px;
+            padding: 1px 8px;
+            padding-top: 1px;
+            padding-right: 8px;
+            padding-bottom: 1px;
+            padding-left: 8px;
+          }
+          .submit {
+            box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+            border: 1px solid #3079ed;
+    border-top-color: rgb(48, 121, 237);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(48, 121, 237);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(48, 121, 237);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(48, 121, 237);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: #fff;
+          }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        Find pages with...<br><br>
+        <form action="https://google.com/search">
+            all these words: <input type="text" name="q">
+            <br><br>
+            this exact word or phrase: <input type="text" name="as_epq">
+            <br><br>
+            any of these words: <input type="text" name="as_oq">
+            <br><br>
+            none of these words: <input type="text" name="as_eq">
+            <br><br>
+            <input class="submit" type="submit" value="Google Advanced Search">
+        </form>
+        <div class="topright">
+          <a href="index.html">Search</a>
+          <a href="image.html">Images</a>
+        </div>
+    </body>
+</html>
